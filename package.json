@@ -1,0 +1,41 @@
+{
+  "name": "mysql-jwt-auth",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "assert": "^1.4.1",
+    "async": "^2.2.0",
+    "body-parser": "~1.15.1",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "chai-spies": "^0.7.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.1",
+    "debug": "~2.2.0",
+    "ejs": "^2.5.6",
+    "express": "^4.13.4",
+    "express-jwt": "^5.0.0",
+    "html": "^1.0.0",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^7.1.9",
+    "lodash": "^4.15.0",
+    "mocha": "^3.2.0",
+    "morgan": "~1.7.0",
+    "mysql": "^2.11.1",
+    "path": "^0.12.7",
+    "pg": "^6.1.4",
+    "request": "^2.81.0",
+    "serve-favicon": "^2.3.2",
+    "should": "^11.2.1",
+    "sinon": "^2.1.0",
+    "superagent": "^3.5.2",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "4.5.0",
+    "npm": "2.15.9"
+  }
+}
